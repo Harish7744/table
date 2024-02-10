@@ -326,13 +326,20 @@ a:hover{
 }
 
 .testimonial-card-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.Courisel{
+  margin: 10px 500px 10px 500px;
 }
 
 .testimonial-card-description {
-    color: #9aa5b1;
+    color: #9aa5b1; 
     font-family: "Roboto";
     font-size: 18px;
 }
